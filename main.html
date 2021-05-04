@@ -5,63 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css"
 </head>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-size: 1.2rem;
-            overflow-x: hidden;
-        }
 
-        .home__main-view {
-            height: 100vh;
-            width: 100vw;;
-            background-image: url("source/img1.png");
-            background-size: cover;
-        }
-
-        .home__header {
-            display: flex;
-            height: 100px;        
-            align-items: center;
-        }
-
-        .header__logo {
-             width: 20%;
-             height: 70px;
-             margin-left: 5%;
-             margin-right: 10%;
-             background-color: rgb(97, 97, 97);
-             text-align: center;
-        }
-
-        .header__navigation {
-            display: flex;
-            width: 60%;
-            margin-right: 5%;
-            justify-items: center;
-            align-items: center;
-            
-        }
-
-        .header__nav-link {
-            margin: auto;
-        }
-
-        .background-img {
-            background-image: url("source/img2.png");
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 100vw;
-            height: 100vh;
-        }
 
     </style>
 <body>
     <section class="home__main-view">
+
         <header class="home__header">
-            <div class="header__logo"> logo </div>
+            <div class="header__logo">
+                <img src="./source/logo1.svg" alt="">
+            </div>
             <div class="header__navigation"> 
                 <a href="" class="header__nav-link"> Home </a>
                 <a href="" class="header__nav-link"> About </a>
@@ -69,18 +25,38 @@
                 <a href="" class="header__nav-link"> Contact Us </a>
             </div>
         </header>
+
+        <div class="home__headline">
+            <p class="headline">Love</p>
+            <p class="headline">Yourself</p>
+            <p class="headline">Healhty</p>
+            <!-- <p class="headline">Love Yourself Healhty</p> -->
+        </div>
+
         <div class="home__background-container">
-            <div class="background-img">
-
-            </div>
-
+            <div class="background-img3"> </div>
+            <div class="background-img2"> </div>
+            <div class="background-img1"> </div>
         </div>
+
     </section>
 
-    <section>
+    <section class="test">
         <div>
-            test
+            test1
         </div>
     </section>
+
+    <section class="test">
+        <div>
+            test2
+        </div>
+    </section>
+
+    <footer class="test3">
+        <div>
+            test3
+        </div>
+    </footer>
 </body>
 </html>
