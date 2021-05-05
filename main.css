@@ -9,6 +9,36 @@ body {
     overflow-x: hidden;
 }
 
+.home__chat {
+    width: 180px;
+    height: 50px;
+    background: rgb(23, 48, 58);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+    border-radius: 5px 5px 0 0;
+    border: rgba(228, 213, 213, 0.253) solid;
+    border-width: 1px 1px 0 1px;
+}
+
+.chat__icon {
+    width: 40px;
+    height: 30px;
+    /* fill: rgb(255, 255, 255); */
+    filter: brightness(0) invert();
+}
+
+.chat__text {
+    text-align: center;
+    width: auto;
+    padding: 0 15px 0 0;
+    font-family: calibri;
+    color: white;
+}
+
 .home__main-view {
     height: 100vh;
     width: 100vw;;
@@ -53,7 +83,7 @@ body {
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.30rem;       
-    padding-bottom: 10px;     
+    padding-bottom: 5px;     
     transition: 0.2s;
     text-shadow: 0px 0px 15px 20px rgb(0, 0, 0);
     margin: auto;
@@ -61,7 +91,7 @@ body {
 
 .header__nav-link:hover {
     transform: scale(1.1);
-    padding: 5px 5px 10px 5px;
+    padding: 5px;
     border-bottom: white solid 1px;
 }
 
