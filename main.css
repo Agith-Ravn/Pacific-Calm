@@ -10,7 +10,7 @@ body {
 }
 
 .home__chat {
-    width: 180px;
+    width: 185px;
     height: 50px;
     background: rgb(23, 48, 58);
     display: flex;
@@ -90,20 +90,22 @@ body {
 }
 
 .header__nav-link:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     padding: 5px;
     border-bottom: white solid 1px;
 }
 
 .home__headline {
+    width: 800px;
     position: absolute;
-    top: 250px;
-    right: 300px;
+    top: 270px;
+    right: 150px;
 }
 
 .headline {
     font-family: font1;
-    font-size: 6rem;
+    font-size: 4.5rem;
+    line-height: 1.6;
     padding-bottom: 10px;
     margin: 20px;
     background: #FDD8A5;
@@ -113,6 +115,44 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.headline__discover {
+    font-family: calibri;
+    font-size: 1.4rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.30rem;
+    border: white 2px solid;
+    border-radius: 4px;
+    padding: 8px 30px;
+    width: 150px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.headline__discover:hover {
+    font-family: calibri;
+    font-size: 1.4rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.30rem;
+    border: white 2px solid;
+    border-radius: 4px;
+    padding: 8px 30px;
+    width: 150px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 .background-img1 {
@@ -129,13 +169,13 @@ body {
 
 .background-img2 {
     position: absolute;
-    top: 200px;
-    left: 190px;
+    top: 220px;
+    left: 220px;
     z-index: -4;
     background: rgba(0, 0, 0, 0.13);
     border-radius: 50%;
-    width: 700px;
-    height: 700px;
+    width: 650px;
+    height: 650px;
     /* border: rgba(255, 255, 255, 0.308) 1px solid; */
 }
 
