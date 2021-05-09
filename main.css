@@ -91,7 +91,7 @@ body {
 
 .header__nav-link:hover {
     transform: scale(1.05);
-    padding: 5px;
+    padding-bottom: 5px;     
     border-bottom: white solid 1px;
 }
 
@@ -120,7 +120,7 @@ body {
 
 .headline__discover {
     font-family: calibri;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -137,22 +137,11 @@ body {
 }
 
 .headline__discover:hover {
-    font-family: calibri;
-    font-size: 1.4rem;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 0.30rem;
-    border: white 2px solid;
-    border-radius: 4px;
-    padding: 8px 30px;
-    width: 150px;
-    font-weight: bold;
-    position: relative;
-    top: 20px;
-    margin: auto;
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
     cursor: pointer;
+    background-color: white;
+    color: teal;
+    height: 100%;
 }
 
 .background-img1 {
@@ -194,7 +183,7 @@ body {
 .test {
     width: 100vw;
     height: 100vh;
-    background: white;
+    background: rgb(177, 177, 177);
     z-index: -2;
 }
 
