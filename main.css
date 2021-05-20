@@ -180,11 +180,51 @@ body {
     height: 100%;
 }
 
-.test {
+.section2 {
     width: 100vw;
     height: 100vh;
     background: rgb(177, 177, 177);
     z-index: -2;
+    display: grid;
+    grid-template-columns: 50% 50%
+}
+
+.s2_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.s2_button {
+    font-family: calibri;
+    font-size: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.30rem;
+    border: white 2px solid;
+    border-radius: 4px;
+    padding: 8px 30px;
+    width: 150px;
+    font-weight: bold;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.s2_button:hover {
+    /* transform: scale(1.05); */
+    cursor: pointer;
+    background-color: white;
+    color: teal;
+}
+
+.s2_img3-container {
+    position: relative;
+    top: 5vh;
+}
+
+.s2_img3 {
+    height: 90vh;
+    width: auto;
 }
 
 .test3 {
