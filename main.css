@@ -22,6 +22,8 @@ body {
     border-radius: 5px 5px 0 0;
     border: rgba(228, 213, 213, 0.253) solid;
     border-width: 1px 1px 0 1px;
+    cursor: pointer;
+    z-index: 99;
 }
 
 .chat__icon {
@@ -183,7 +185,7 @@ body {
 .section2 {
     width: 100vw;
     height: 100vh;
-    background: rgb(177, 177, 177);
+    background: rgb(255, 255, 255);
     z-index: -2;
     display: grid;
     grid-template-columns: 50% 50%
@@ -192,16 +194,25 @@ body {
 .s2_text {
     display: flex;
     flex-direction: column;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+
+    position: relative;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    height: 50vh;
 }
 
 .s2_button {
     font-family: calibri;
     font-size: 1.2rem;
-    color: white;
+    color: black;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.30rem;
-    border: white 2px solid;
+    border: black 2px solid;
     border-radius: 4px;
     padding: 8px 30px;
     width: 150px;
@@ -225,6 +236,13 @@ body {
 .s2_img3 {
     height: 90vh;
     width: auto;
+}
+
+.section3
+{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255, 255, 255);
 }
 
 .test3 {
