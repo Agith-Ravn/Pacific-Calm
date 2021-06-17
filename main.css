@@ -9,6 +9,13 @@ body {
     overflow-x: hidden;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/*----------------------------------------------*/
+
 .home__chat {
     width: 185px;
     height: 50px;
@@ -41,7 +48,7 @@ body {
     color: white;
 }
 
-.home__main-view {
+.home-section {
     height: 100vh;
     width: 100vw;;
     /* background-image: url("source/img1.png");
@@ -245,11 +252,16 @@ body {
     height: 100vh;
     background: rgb(243, 242, 236);
     z-index: -2;
+}
+
+.s2-container {
+    width: 90%;
+    margin: auto;
     display: grid;
     grid-template-columns: 50% 50%
 }
 
-.s2_text {
+.s2-text {
     display: flex;
     flex-direction: column;
     padding: 100px;
@@ -264,7 +276,7 @@ body {
     text-align: center;
 }
 
-.s2_button {
+.s2-button {
     font-family: calibri;
     font-size: 1.2rem;
     color: black;
@@ -280,18 +292,20 @@ body {
     transition: 0.2s;
 }
 
-.s2_button:hover {
+.s2-button:hover {
     /* transform: scale(1.05); */
     cursor: pointer;
     color: teal;
 }
 
-.s2_img3-container {
+/* .s2-img3-container {
     position: relative;
     top: 10vh;
-}
+} */
 
-.s2_img3 {
+.s2-img3 {
+    position: relative;
+    top: 10vh;
     height: 80vh;
     width: 45vw;
     margin: 0 2.5vw;
@@ -305,11 +319,17 @@ body {
     height: 100vh;
     background: rgb(243, 242, 236);
     z-index: -2;
+    border: black solid 1px;
+}
+
+.s3-container {
+    width: 90%;
+    margin: auto;
     display: grid;
     grid-template-columns: 50% 50%
 }
 
-.s3_text {
+.s3-text {
     display: flex;
     flex-direction: column;
     padding: 100px;
@@ -324,7 +344,7 @@ body {
     text-align: center;
 }
 
-.s3_button {
+.s3-button {
     font-family: calibri;
     font-size: 1.2rem;
     color: black;
@@ -340,18 +360,18 @@ body {
     transition: 0.2s;
 }
 
-.s3_button:hover {
+.s3-button:hover {
     /* transform: scale(1.05); */
     cursor: pointer;
     color: teal;
 }
 
-.s3_img4-container {
+.s3-img4-container {
     position: relative;
     top: 10vh;
 }
 
-.s3_img4 {
+.s3__img4 {
     height: 80vh;
     width: 45vw;
     margin: 0 2.5vw;
