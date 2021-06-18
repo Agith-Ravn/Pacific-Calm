@@ -113,7 +113,6 @@ img {
 .chat__icon {
     width: 40px;
     height: 30px;
-    /* fill: rgb(255, 255, 255); */
     filter: brightness(0) invert();
 }
 
@@ -379,7 +378,7 @@ img {
 }
 
 .s4-container {
-    width: 100vw;
+    width: 90vw;
     height: auto;
     margin: auto;
     display: flex;
@@ -404,11 +403,8 @@ img {
 .posts-img {
     width: 300px;
     height: 400px;
+    object-fit: cover;
     border-radius: 5px;
-}
-
-.posts__date {
-
 }
 
 /* Button ligger øverst */
@@ -442,6 +438,7 @@ img {
     height: inherit;
     width: inherit;
     object-fit: cover;
+    filter: brightness(0) invert();
     
 }
 
