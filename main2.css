@@ -1,0 +1,114 @@
+@media only screen and (orientation: portrait) {
+
+    /* Chat box*/
+    .home__chat {
+        width: 70px;
+        right: 20px;
+    }
+    .chat__text {
+        display: none;
+    }
+
+    /* Section 1 ---------------------------------------------- */
+    .header__navigation {
+        display: none;
+    }
+
+    /* Section 2 ---------------------------------------------- */
+    .section2 {
+        height: auto;
+    }
+    
+    .s2-container {
+        width: 80vw;
+        padding: 50px 0 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .s2-text {
+        height: auto;
+        padding: 50px 0 0 0;
+    }
+
+    .s2-img3 {
+        display: none;
+    }
+
+    .s2-img3-2 {
+        display: block;
+        height: inherit;
+        width: inherit;
+        margin: 0 2.5vw;
+        object-fit: cover;
+    }
+
+
+    /* Section 3 ---------------------------------------------- */
+    .section3 {
+        height: auto;
+    }
+    
+    .s3-container {
+        width: 80vw;
+        padding: 50px 0 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .s3-text {
+        height: auto;
+        padding: 50px 0 0 0;
+    }
+
+    .s3-img4 {
+        display: block;
+        height: inherit;
+        width: inherit;
+        margin: 0 2.5vw;
+        object-fit: cover;
+    }
+
+    /* Section 4 ---------------------------------------------- */
+    .section4 {
+        height: auto;
+    }
+
+    .s4-container {
+        padding: 50px 0 100px;
+    }
+
+    .blog-container {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 90vw;
+    }
+
+    .posts-container {
+        width: 230px;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    .s4-container > .button-type2 {
+        margin: 0;
+    }
+
+    /* Footer ---------------------------------------------- */
+    .button-type1 {
+        font-size: 1rem;
+        margin: 30px 0;
+    }
+    .footer-container {
+        height: 25vh;
+        width: 90vw;
+        margin: auto;
+    }
+
+    .footer-container > p {
+        margin: 5px 0;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+}
