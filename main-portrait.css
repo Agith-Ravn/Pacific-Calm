@@ -3,7 +3,7 @@
 
     /* Chat box*/
     .home__chat {
-        width: 70px;
+        width: 55px;
         right: 2vw;
     }
     .chat__text {
@@ -183,11 +183,16 @@
     .footer {
         height: auto;
     }
+
     .footer-container {
         height: auto;
         width: 90vw;
         margin: auto;
         padding-bottom: 10vh;
+    }
+
+    .footer__logo {
+        width: 70vw;
     }
 
     .footer__button.button-type1 {

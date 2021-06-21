@@ -31,7 +31,10 @@
     /* Section 1 ---------------------------------------------- */
     .home-section {
         height: 100vh;
-
+    }
+    
+    .home__header {
+        height: 100px;
     }
     
     .header__navigation {
@@ -39,9 +42,8 @@
     }
 
     .home__headline {
-        width: 100vw;
         position: static;
-        margin: auto;
+        margin: 20vh auto;
         width: 80vw;
     }
 
