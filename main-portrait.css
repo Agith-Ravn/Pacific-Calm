@@ -1,18 +1,103 @@
-@media only screen and (orientation: portrait) {
+
+@media (orientation: portrait) {
 
     /* Chat box*/
     .home__chat {
         width: 70px;
-        right: 20px;
+        right: 2vw;
     }
     .chat__text {
         display: none;
     }
 
-    /* Section 1 ---------------------------------------------- */
+    /* Drop down menu |----------------------------------------------*/
+    .dropdown-container {
+        display: block;
+        position: fixed;
+        top: 4vh;
+        right: 5vw;
+        z-index: 99;
+    }
+
+    button {
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        color: white;
+    }
+
+    .dropdown__button {
+        font-size: 4vh;
+    }
+
+    .dropdown__content {
+        display: none;
+    }
+
+
+    /* Section 1 ---------------------------------------------- */    
+    .home__header {
+        grid-template-columns: 70% 30%;
+        height: auto;
+        padding-top: 4vh;
+        padding-left: 3vw;
+    }
+
     .header__navigation {
         display: none;
     }
+
+    .home__headline {
+        position: static;
+        margin: 15vh auto;
+        width: 80vw;
+    }
+
+    .headline {
+        margin: auto;
+    }
+
+    @media (max-width: 700px) and (orientation: portrait) {
+        .headline {
+            font-size: 10vw;
+        }
+
+        .headline__button.button-type1 {
+            margin: 3vh auto;
+            font-size: 3vw;
+            width: 40%;
+        }
+    }
+
+    .headline__button.button-type1 {
+        margin: 3vh auto;
+    }
+
+    .background-img3 {
+        display: none;
+    }
+
+
+    /* Section 1.2 - Services---------------------------------- */
+    .services-section {
+        height: auto;
+    }
+
+    .services-container {
+        padding: 50px 0 100px;
+        width: 90vw;
+    }
+    
+    
+    .services__icons {
+        width: 60vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .services__icon {
+        height: auto;
+    }
+
 
     /* Section 2 ---------------------------------------------- */
     .section2 {
@@ -39,7 +124,7 @@
         display: block;
         height: inherit;
         width: inherit;
-        margin: 0 2.5vw;
+        margin: 0;
         object-fit: cover;
     }
 
@@ -65,7 +150,7 @@
         display: block;
         height: inherit;
         width: inherit;
-        margin: 0 2.5vw;
+        margin: 0;
         object-fit: cover;
     }
 
@@ -85,8 +170,8 @@
     }
 
     .posts-container {
-        width: 230px;
-        height: 400px;
+        width: 300px;
+        height: auto;
         margin-bottom: 20px;
     }
 
@@ -99,6 +184,7 @@
         font-size: 1rem;
         margin: 30px 0;
     }
+    
     .footer-container {
         height: 25vh;
         width: 90vw;

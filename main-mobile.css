@@ -1,0 +1,199 @@
+@media (max-width: 1000px) and (orientation: landscape) {
+
+    /* Medium |----------------------------------------------*/
+    .headline-type1 {
+        font-family: var(--font1);
+        letter-spacing: 2px;
+        font-size: 1.2rem;
+
+    }
+
+    .body-type1 {
+        font-family: var(--font3);
+        line-height: 1.4;
+        font-size: 1rem;
+    }
+
+    .button-type2 {   
+        font-size: 0.8rem;
+    }
+
+    /* Chat box ---------------------------------------------- */
+    .home__chat {
+        width: 70px;
+        right: 2vw;
+    }
+    .chat__text {
+        display: none;
+    }
+
+
+    /* Section 1 ---------------------------------------------- */
+    .home-section {
+        height: 100vh;
+
+    }
+    
+    .header__navigation {
+        display: none;
+    }
+
+    .home__headline {
+        width: 100vw;
+        position: static;
+        margin: auto;
+        width: 80vw;
+    }
+
+    .headline__button.button-type1 {
+        margin: 3vh auto;
+    }
+
+    .headline {
+        font-family: var(--font1);
+        font-size: 2rem;
+        line-height: 1.6;
+        padding-bottom: 10px;
+        background: #FDD8A5;
+        background: -webkit-linear-gradient(to right, #FDD8A5 0%, #FFFFFF 100%);
+        background: -moz-linear-gradient(to right, #FDD8A5 0%, #FFFFFF 100%);
+        background: linear-gradient(to right, #FDD8A5 0%, #FFFFFF 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        margin: 3vh;
+    }
+
+    
+    .background-img3-container {
+        display: none;
+    }
+
+    /* Section 1.2 - Services---------------------------------- */
+    .services-section {
+        height: auto;
+    }
+
+    .services-container {
+        padding: 100px 0 100px 0;
+        width: 90vw;
+    }    
+    
+    .services__icons {
+        margin-top: 5vh;
+        width: 60vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .services__icon {
+        height: auto;
+        width: 7vw;
+    }
+
+
+    /* Section 2 ---------------------------------------------- */
+    .section2 {
+        height: auto;
+    }
+    
+    .s2-container {
+        width: 80vw;
+        padding: 50px 0 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .s2-text {
+        height: auto;
+        padding: 50px 0 0 0;
+    }
+
+    .s2-img3 {
+        display: none;
+    }
+
+    .s2-img3-2 {
+        display: block;
+        height: 30vw;
+        width: inherit;
+        margin: 0;
+        object-fit: cover;
+    }
+
+
+    /* Section 3 ---------------------------------------------- */
+    .section3 {
+        height: auto;
+    }
+    
+    .s3-container {
+        width: 80vw;
+        padding: 50px 0 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .s3-text {
+        height: auto;
+        padding: 50px 0 0 0;
+    }
+
+    .s3-img4 {
+        display: block;
+        height: 30vw;
+        width: inherit;
+        margin: 0;
+        object-fit: cover;
+    }
+
+
+    /* Section 4 ---------------------------------------------- */
+    .section4 {
+        height: auto;
+    }
+
+    .s4-container {
+        padding: 50px 0 100px;
+    }
+
+    .blog-container {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 90vw;
+    }
+
+    .posts-container {
+        width: 250px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .s4-container > .button-type2 {
+        margin: 0;
+    }
+
+    /* Footer ---------------------------------------------- */
+    .footer {
+        height: auto;
+    }
+    
+    .footer-container {
+        height: auto;
+        width: 90vw;
+        margin: auto;
+        padding-bottom: 10vh;
+    }
+
+    .footer-container > p {
+        margin: 5px 0;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .button-type1 {
+        font-size: 1rem;
+        margin: 30px 0;
+    }
+}

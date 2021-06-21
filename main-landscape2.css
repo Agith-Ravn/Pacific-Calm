@@ -1,0 +1,58 @@
+@media (max-height: 600px) and (orientation: landscape) {
+
+    /* Home section |------------------------------------------*/
+    .home-section {
+        height: auto;    
+    }
+   
+    /* Service section |------------------------------------------------- */
+    .services-section {
+        height: auto;
+    }
+
+    /* Section 2 ---------------------------------------------- */
+    .section2 {
+        height: auto;        
+    }
+
+    .s2-container {
+        padding: 50px;
+    }
+
+    .s2-text {
+        height: auto;
+    }
+
+    /* Section 3 ---------------------------------------------- */
+    .section3 {
+        height: auto;        
+    }
+
+    .s3-container {
+        padding: 50px;
+    }
+
+    .s3-text {
+        height: auto;
+    }
+
+    /* Section 4 ---------------------------------------------- */
+    .section4 {
+        height: auto;        
+    }
+
+    .s4-container {
+        padding: 50px;
+    }
+
+    /* Footer ---------------------------------------------- */
+    .footer {
+        height: auto;
+    }
+    
+    .footer-container {
+        height: auto;
+    }
+
+    
+}

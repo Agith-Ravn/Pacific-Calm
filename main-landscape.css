@@ -93,7 +93,6 @@ img {
 
 /* Small|----------------------------------------------*/
 /* Chat |----------------------------------------------*/
-
 .home__chat {
     width: 200px;
     height: 50px;
@@ -104,7 +103,7 @@ img {
     position: fixed;
     bottom: 0;
     right: 40px;
-    border-radius: 5px 5px 0 0;
+    border-radius: 10px 10px 0 0;
     border: rgba(228, 213, 213, 0.253) solid;
     border-width: 1px 1px 0 1px;
     cursor: pointer;
@@ -123,6 +122,11 @@ img {
     padding: 0 15px 0 0;
     color: white;
     font-family: var(--font2);
+}
+
+/* Drop down menu |----------------------------------------------*/
+.dropdown-container {
+    display: none;  
 }
 
 /* Home section |------------------------------------------*/
@@ -157,12 +161,12 @@ img {
 .header__navigation {
     display: flex;
     width: inherit;
-    justify-items: center;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 1.2rem;
     font-family: var(--font2);
     font-weight: bold;
-    margin: auto;
+    margin: auto 0;
 }
 
 .header__nav-link {
@@ -221,13 +225,13 @@ img {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 70%;
+    height: 90%;
     width: 100%;
     z-index: -3;
 }
 
 .background-img3 {
-    background-image: url("source/img2.png");
+    background-image: url("source/img2.2.png");
     background-repeat: no-repeat;
     background-size: contain;
     min-width: 1500px;
@@ -261,7 +265,7 @@ img {
     height: 105vh;
 }
 
-/* Service section |------------------------------------------------- */
+/* Section 1.2 - Services---------------------------------- */
 .services-section {
     width: 100vw;
     height: 60vh;
@@ -299,12 +303,8 @@ img {
     width: 70px;
 }
 
-/* .services__infoText {
-} */
 
-
-/* ------------------------------------------------- */
-
+/* Section 2 ---------------------------------------------- */
 .section2 {
     width: 100vw;
     height: 100vh;
@@ -314,6 +314,9 @@ img {
 }
 
 .s2-container {
+    border-bottom: rgba(0, 0, 0, 0.13) solid 2px;
+    border-top: rgba(0, 0, 0, 0.13) solid 2px;
+    height: inherit;
     width: 90%;
     margin: auto;
     display: grid;
@@ -336,9 +339,9 @@ img {
 }
 
 .s2-img3 {
-    height: inherit;
-    width: inherit;
-    margin: 0 2.5vw;
+    height: 30vw;
+    width: 30vw;
+    margin: auto;
     object-fit: cover;
 }
 
@@ -346,8 +349,7 @@ img {
     display: none;
 }
 
-/* ------------------------------------------------- */
-
+/* Section 3 ---------------------------------------------- */
 .section3 {
     width: 100vw;
     height: 100vh;
@@ -357,8 +359,10 @@ img {
 }
 
 .s3-container {
+    border-bottom: rgba(0, 0, 0, 0.13) solid 2px;
+    height: inherit;
     width: 90%;
-    margin: auto;
+    margin: auto 0;
     display: grid;
     grid-template-columns: 45% 55%
 }
@@ -378,18 +382,18 @@ img {
     text-align: center;
 }
 
-.s3__img4 {
-    height: inherit;
-    width: inherit;
-    margin: 0 2.5vw;
+.s3-img4 {
+    height: 30vw;
+    width: 30vw;
+    margin: auto 0;
     object-fit: cover;
 }
 
-/* ------------------------------------------------- */
+/* Section 4 ---------------------------------------------- */
 .section4 {
     width: 100vw;
     height: 100vh;
-    background: rgb(247, 246, 240);
+    background: rgb(255, 255, 255);
     z-index: -2;
     display: flex;
 }
@@ -428,11 +432,10 @@ img {
 /* Button ligger øverst */
 
 
-/* ------------------------------------------------- */
-
+/* Footer ---------------------------------------------- */
 .footer {
     width: 100vw;
-    height: 40vh;
+    height: 45vh;
     background-image: url("source/img1.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -464,4 +467,5 @@ img {
 
 .footer__button {
     width: auto;
+    margin: 20px 0 0 0;
 }
