@@ -180,15 +180,19 @@
     }
 
     /* Footer ---------------------------------------------- */
-    .button-type1 {
-        font-size: 1rem;
-        margin: 30px 0;
+    .footer {
+        height: auto;
     }
-    
     .footer-container {
-        height: 25vh;
+        height: auto;
         width: 90vw;
         margin: auto;
+        padding-bottom: 10vh;
+    }
+
+    .footer__button.button-type1 {
+        font-size: 1rem;
+        margin: 30px 0;
     }
 
     .footer-container > p {

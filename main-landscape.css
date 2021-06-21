@@ -311,6 +311,7 @@ img {
     background: rgb(247, 246, 240);
     z-index: -2;
     display: flex;
+    justify-content: center;
 }
 
 .s2-container {
@@ -356,6 +357,7 @@ img {
     background: rgb(255, 255, 255);
     z-index: -2;
     display: flex;
+    justify-content: center;
 }
 
 .s3-container {
