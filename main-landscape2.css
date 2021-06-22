@@ -1,8 +1,46 @@
-@media (max-height: 600px) and (orientation: landscape) {
+@media (max-height: 800px) and (orientation: landscape) {
 
     /* Home section |------------------------------------------*/
     .home-section {
-        height: auto;    
+        height: 100vh;
+    }
+    
+    .home__header {
+        margin-top: 2vw;
+        height: auto;
+    }
+
+    .home__headline {
+        position: absolute;
+        top: 35vh;
+        left: 10vw;
+        margin: auto;
+        width: 80vw;
+    }
+
+    .headline__button.button-type1 {
+        margin: 3vh auto;
+    }
+
+    .headline {
+        font-family: var(--font1);
+        font-size: 4rem;
+        width: 45vw;
+        line-height: 1.6;
+        padding-bottom: 10px;
+        background: #FDD8A5;
+        background: -webkit-linear-gradient(to right, #FDD8A5 0%, #FFFFFF 100%);
+        background: -moz-linear-gradient(to right, #FDD8A5 0%, #FFFFFF 100%);
+        background: linear-gradient(to right, #FDD8A5 0%, #FFFFFF 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        margin: auto;
+    }
+
+    .background-img3 {
+        display: none;
     }
    
     /* Service section |------------------------------------------------- */

@@ -34,7 +34,8 @@
     }
     
     .home__header {
-        height: 100px;
+        margin-top: 2vw;
+        height: auto;
     }
     
     .header__navigation {
@@ -42,8 +43,10 @@
     }
 
     .home__headline {
-        position: static;
-        margin: 20vh auto;
+        position: absolute;
+        top: 30vh;
+        left: 10vw;
+        margin: auto;
         width: 80vw;
     }
 
@@ -68,7 +71,8 @@
     }
 
     
-    .background-img3-container {
+    /*                                               IMG 3 */
+    .background-img3 {
         display: none;
     }
 
@@ -185,7 +189,7 @@
         height: auto;
         width: 90vw;
         margin: auto;
-        padding-bottom: 10vh;
+        padding-bottom: 20vh;
     }
 
     .footer-container > p {

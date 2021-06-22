@@ -1,5 +1,5 @@
 
-@media (orientation: portrait) {
+@media (max-width: 1200px) {
 
     /* Chat box*/
     .home__chat {
@@ -54,6 +54,12 @@
 
     .headline {
         margin: auto;
+        font-size: 5vw;
+    }
+
+    /*                                               IMG 3 */
+    .background-img3 {
+        display: none;
     }
 
     @media (max-width: 700px) and (orientation: portrait) {
@@ -192,12 +198,12 @@
     }
 
     .footer__logo {
-        width: 70vw;
+        width: 40vw;
     }
 
     .footer__button.button-type1 {
         font-size: 1rem;
-        margin: 30px 0;
+        margin: 20px 0;
     }
 
     .footer-container > p {
