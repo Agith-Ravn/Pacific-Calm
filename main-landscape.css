@@ -95,7 +95,7 @@ img {
 /* Small|----------------------------------------------*/
 /* Chat |----------------------------------------------*/
 .home__chat {
-    width: 200px;
+    width: 160px;
     height: 50px;
     background: rgb(23, 48, 58);
     display: flex;
@@ -124,6 +124,42 @@ img {
     color: white;
     font-family: var(--font2);
 }
+
+.chat__hidden {
+    display: none;
+}
+
+.chat__show {
+    /* display: none; */
+    position: absolute;
+    bottom: 0;
+    right: -2px;
+    width: 260px;
+    padding: 20px;
+    height: 350px;
+    background: rgb(23, 48, 58);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.253);
+    border: 1px solid rgba(0, 0, 0, 0.253);    
+}
+
+.chat__show  .button-type2 {
+    padding: 10px 0;
+    margin: auto;
+    width: 200px;
+    color: white;
+    border-color:white;;
+}
+
+.chat__show  .button-type2:hover {
+    background-color: white;
+    color: black;
+}
+
 
 /* Drop down menu |----------------------------------------------*/
 .dropdown-container {

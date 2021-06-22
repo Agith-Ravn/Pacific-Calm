@@ -18,15 +18,19 @@
     </style>
 <body>
 
-    <div class="home__chat" onclick="openChatBox(true)">
-        <img class="chat__icon" src="./source/icon1.svg" alt="">
-        
-        <p class="chat__text"> Chat med oss </p>
+    <div class="home__chat" onclick="chatBox()">
+        <img class="chat__icon" src="./source/chatbot.svg" alt="">        
+        <p class="chat__text"> Chatbot </p>
+        <div class="chat__hidden">   
+            <p class="headline-type1">Velkommen til chat</p>
+            <p class="body-type1">Chatboten kan svare på spørsmål om våre produkter og tjenester</p>
+            <div class="button-type2"> Start chat </div>
+        </div>
     </div>
 
     <div class="dropdown-container">
-        <button class="dropdown__button">☰</button>
-        <div class="dropdown__content">
+        <button class="dropdown__button" onclick="dropDowMenu()">☰</button>
+        <div class="dropdown__content body-type1" id="dropdown">
             <a> Home </a>
             <a> Our Services </a>
             <a> About </a>

@@ -27,6 +27,10 @@
         display: none;
     }
 
+    .chat__show {
+        height: 300px;
+    }
+
     /* Drop down menu |----------------------------------------------*/
     .dropdown-container {
         top: 6vh;
