@@ -27,6 +27,14 @@
         display: none;
     }
 
+    /* Drop down menu |----------------------------------------------*/
+    .dropdown-container {
+        top: 6vh;
+    }
+
+    .dropdown__button {
+        font-size: 6vh;
+    }
 
     /* Section 1 ---------------------------------------------- */
     .home-section {
@@ -36,6 +44,11 @@
     .home__header {
         margin-top: 2vw;
         height: auto;
+        
+    }
+
+    .header__logo {
+        width: 50vh;
     }
     
     .header__navigation {
@@ -44,7 +57,7 @@
 
     .home__headline {
         position: absolute;
-        top: 30vh;
+        top: 35vh;
         left: 10vw;
         margin: auto;
         width: 80vw;
@@ -67,7 +80,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-align: center;
-        margin: 3vh;
+        width: 80vw;
     }
 
     
