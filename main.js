@@ -4,6 +4,7 @@ function dropDowMenu() {
 }
 
 window.onclick = function(e) {
+    // console.log(e)
     if (!e.target.matches('.dropdown__button')) {
         var myDropdown = document.getElementById("dropdown");
         if (myDropdown.classList.contains('dropdown__content--show')) {
