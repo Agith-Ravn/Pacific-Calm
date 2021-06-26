@@ -1,2 +1,2 @@
 # Pacific Calm
-https://agith-ravn.github.io/PacificCalm/main.html
+https://agith-ravn.github.io/Pacific-Calm/main.html
