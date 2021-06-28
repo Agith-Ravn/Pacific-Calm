@@ -18,3 +18,14 @@ window.onclick = function(e) {
 function chatBox() {
     document.querySelector(".chat__hidden").classList.toggle("chat__show");
 }
+
+
+//Error melding
+function errorMessage() {
+    document.querySelector(".error--hidden").classList.add("error--show");
+
+    setTimeout(function(){
+        document.querySelector(".error--hidden").classList.remove("error--show");
+    }, 2500);
+}
+

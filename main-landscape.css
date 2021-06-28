@@ -93,6 +93,39 @@ img {
 }
 
 /* Small|----------------------------------------------*/
+/* Feilmelding|----------------------------------------*/
+.error--hidden {
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    transform-origin:50% 50%;
+    opacity:0;
+    transition: transform 0.1s, opacity 0.1s 0.1s;
+    box-shadow:20px 20px 50px rgba(0, 0, 0, 0.226);
+}
+
+.error--show {
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    opacity:1;
+    box-shadow:20px 20px 50px rgba(0, 0, 0, 0.226);
+}
+
+.error-message {
+    text-align: center;
+    font-family: var(--font2);
+    font-size: 1.4rem;
+    color: red;
+    padding: 20px 0;
+    margin: 0;
+}
+
+
 /* Chat |----------------------------------------------*/
 .home__chat {
     width: 160px;
