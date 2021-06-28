@@ -23,11 +23,9 @@ function chatBox() {
 //Error melding
 function errorMessage() {
     document.querySelector(".error--hidden").classList.add("error--show");
-    document.querySelector(".error-message--hidden").classList.add("error-message--show");
 
     setTimeout(function(){
         document.querySelector(".error--hidden").classList.remove("error--show");
-        document.querySelector(".error-message--hidden").classList.add("error-message--show");
     }, 2500);
 }
 
